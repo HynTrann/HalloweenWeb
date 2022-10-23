@@ -65,6 +65,11 @@ body {
     color: #d52e01;
 }
 
+.background--dark {
+    background-color: #000000;
+    padding: 0 60px;
+}
+
 .img-wrapper {
     display: flex;
     align-items: center;
@@ -74,6 +79,7 @@ body {
     text-align: center;
     padding: 4px;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .img-wrapper img {
@@ -144,4 +150,15 @@ a:hover {
 
 .slick-next {
     right: 0;
+}
+
+/* Image Scale */
+.img-scale {
+    transform: scale(1);
+    transition: .7s;
+}
+
+.img-scale:hover {
+    transform: scale(1.14);
+    transition: .7s;
 }

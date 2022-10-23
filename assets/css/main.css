@@ -1,7 +1,7 @@
 /* Header */
 #header {
     background-color: var(--black-color);
-    padding: 18px 0 26px;
+    padding: 26px 0 26px;
     z-index: 1;
 }
 
@@ -20,8 +20,6 @@
 }
 
 .header__navbar {
-    position: relative;
-    top: -4px;
     display: flex;
     align-items: flex-end;
     margin-left: 20px;
